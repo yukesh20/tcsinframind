@@ -1,0 +1,58 @@
+<html>
+    <Head>
+
+<script>
+
+var seconds=0;
+
+function displayseconds()
+{
+seconds +=1;
+
+
+ 
+document.getElementById("secondsdisplay").innerText="This Page Will Be Redirect In " +seconds+" seconds...";
+ }
+setInterval(displayseconds,1000);
+
+function redirectpage()
+{
+
+window.location="dummt1.html";
+}
+setTimeout('redirectpage()',5000); 
+</script>
+
+</head>
+
+    <body>
+        <style>
+            body{
+                background-image: url('1.jpg');
+                
+            }
+
+            
+        </style>
+
+         <h1 align="left">
+
+         <font face="Cursive" color="whitesmoke" size="70"> CREATING YOUR STACK...</font></h1>
+         &emsp;
+            &emsp;
+            &emsp;
+
+
+<h2 align="center">
+
+<font face="Fantasy" color="white" size="60">PLEASE WAIT..</font></h1>
+
+<hr/>
+
+<div id="secondsdisplay" style="font-family: Calibri;font-size: 30pt;color:white;text-align:center"></div>
+
+<img src= "770.gif"  style="margin-left:50%;height:50px;width:50px"/>
+
+   
+</body> 
+</html>
